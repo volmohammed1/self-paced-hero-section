@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@650&family=Noto+Sans&display=swap');
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h2 {
+  font-family: 'Figtree', sans-serif;
+  font-weight: 650;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.animated-up-once {
+  animation: moveUp 6s ease-in-out forwards;
+}
+
+.animated-down-once {
+  animation: moveDown 6s ease-in-out forwards;
+}
+
+.delay-1 { animation-delay: 0.2s; }
+.delay-2 { animation-delay: 0.4s; }
+.delay-3 { animation-delay: 0.6s; }
+.delay-4 { animation-delay: 0.8s; }
+
+@keyframes moveDown {
+  from { transform: translateY(0); }
+  to { transform: translateY(30px); }
+}
+
+@keyframes moveUp {
+  from { transform: translateY(0); }
+  to { transform: translateY(-30px); }
+}
+
+.gradient-bar {
+  background: linear-gradient(90deg, #6C2EFF, #00DBDE);
+  animation: moveGradient 50s ease infinite alternate;
+}
+
+@keyframes moveGradient {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+
+@keyframes stripeMove {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 150px 150px;
+  }
+}
+
+.animate-stripe {
+  animation: stripeMove 2s linear infinite;
+}
