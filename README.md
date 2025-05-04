@@ -1,38 +1,66 @@
 # Self-Paced Complete Course – Hero Section
 
-This is a responsive HTML/CSS/JS implementation of a hero section based on a Figma design.  
-It supports full responsiveness for Desktop, Tablet, and Mobile breakpoints.
+![Preview of Hero Section](./preview.png)
 
-## 📐 Breakpoints
-- **Mobile**: 1–600px
-- **Tablet**: 601–900px
-- **Desktop**: 901+ px (max 1080px)
-
-## 📚 Fonts
-- [Figtree (weight 650)](https://fonts.google.com/specimen/Figtree)
-- [Noto Sans](https://fonts.google.com/specimen/Noto+Sans)
-
-## 🎨 Features
-- Variable font weight support
-- Smooth entrance animation for image columns
-- Responsive layout with Tailwind CSS
-- Gradient animated bar below the hero
-- Mobile-friendly single-image view
-
-## 🛠️ Tech Stack
-- HTML5
-- Tailwind CSS (via CDN)
-- Vanilla JavaScript
-- Responsive layout using Tailwind’s utility classes
-
-## 🚀 Usage
-1. Clone or download the repository
-2. Open `index.html` directly in the browser
-3. All assets are self-contained in the `assets/` folder
-
-## 📸 Preview
-Designed to match the provided Figma layout, featuring animated image columns and a call-to-action section.
+This project is a fully responsive hero section built with **HTML**, **Tailwind CSS**, and **JavaScript**, based on a Figma design. It showcases the Self-Paced MCAT® Prep Bundle.
 
 ---
 
-**Note**: This layout is optimized for frontend development test submissions.
+## 📐 Breakpoints
+
+| Device   | Width Range |
+|----------|-------------|
+| Mobile   | 1–600px     |
+| Tablet   | 601–900px   |
+| Desktop  | 901+ px     |
+
+---
+
+## 🖋️ Fonts
+
+- [Figtree (Weight 650)](https://fonts.google.com/specimen/Figtree)
+- [Noto Sans](https://fonts.google.com/specimen/Noto+Sans)
+
+---
+
+## 🎨 Features
+
+- ✅ Responsive layout (Mobile / Tablet / Desktop)
+- ✅ Variable font weights
+- ✅ Smooth animations for images
+- ✅ Animated gradient stripe
+- ✅ Custom styling using Tailwind CSS CDN
+
+---
+
+## 🚀 How to Use
+
+1. Clone or download the project
+2. Open `index.html` in your browser
+3. Make sure your `assets/` folder is in the same directory
+
+---
+
+## 📁 Folder Structure
+
+```
+/project-root
+├── index.html
+├── style.css
+├── assets/
+│   ├── Heart.png
+│   ├── Course.png
+│   └── ...
+└── preview.png
+```
+
+---
+
+## 🧪 Notes
+
+This layout was developed as part of a frontend audition task for a WordPress-based remote position. Tailwind CDN is used for simplicity and fast iteration.
+
+---
+
+**Developed by:** [Mohammed Abdelfattah](https://www.linkedin.com/in/m-abdelfattah92/)  
+**GitHub:** [https://github.com/volmohammed1](https://github.com/volmohammed1)
